@@ -18,3 +18,5 @@ function sum(first, second){
 
 const output = sum(5,7);
 //console.log(output);
+console.log(problem);
+let problem = "abir";
