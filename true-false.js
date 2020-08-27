@@ -10,7 +10,7 @@ else {
 }
 // 1 is related with true and 0 is related with false
 // "==" double equal only check value and "===" three equal will check value and data type
-// thats === using three equal always better in javascript 
+// thats why "===" using triple always better in javascript 
 const first = 2;
 const second = "2";
 
