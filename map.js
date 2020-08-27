@@ -1,7 +1,11 @@
-const numbers = [2, 3, 4, 5, 7, 8];
-const output = [];
+const students = [
+    { studentID: 01, studentName: "Abir"},
+    { studentID: 02, studentName: "Yusuf"}
+];
+// function studentInfo(info){
+//     const student = [info.studentID, info.studentName.join(" ")];
+//     return student;
+// }
 
-for (let i = 0; i < numbers.length; i++) {
-    const element = numbers[i];
-       
-}
+const result = students.map( x => x);
+console.log(result);
