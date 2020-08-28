@@ -13,6 +13,12 @@ for (let i = 0; i < students.length; i++) {
 }
 console.log(output);
 
+// function
+const myFun = students.map(function(x){
+    console.log("function", x.name);
+});
+// const result = myFun(students);
+// console.log(result)
 //Arrow 
 const studentID = students.map(x => x.id);
 console.log(studentID);

@@ -36,3 +36,9 @@ const bigger = numbers.filter(x => x > 5);
 console.log("filter", bigger);
 
 //find
+
+function add(x,y =4){
+    return x + y;
+}
+const z = add(3,2);
+console.log(z);

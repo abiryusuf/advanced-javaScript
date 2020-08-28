@@ -1,6 +1,6 @@
 // false 
 // condition will be false if value is 0, NaN, null, undefined, empty string 
-let name = "";
+let name = undefined;
 
 if(name){
     console.log("condition is true");
