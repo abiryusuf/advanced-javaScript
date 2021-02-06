@@ -10,3 +10,5 @@ console.log(str);
 //join
 const join = nums.join( " ", 12, 13);
 console.log(join);
+
+console.log(nums.indexOf(3))
